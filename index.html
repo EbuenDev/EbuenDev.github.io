@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Psychopathy Test</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div id="quiz-container">
+            <h1>PSYCHOPATY TEST</h1>
+            <div id="question-container" class="hide">
+                <p id="question-number"></p>
+                <p id="question"></p>
+                <div id="answer-buttons" class="btn-grid">
+                    <button class="btn">Never</button>
+                    <button class="btn">Sometimes</button>
+                    <button class="btn">Often</button>
+                    <button class="btn">Always</button>
+                </div>
+            </div>
+            <div id="start-container">
+                <button id="start-btn" class="start-btn btn">Start Test</button>
+            </div>
+            <div id="result-container" class="hide">
+                <h2>Test Results</h2>
+                <p id="result-text"></p>
+                <button id="retry-btn" class="btn">Try Again</button>
+            </div>
+        </div>
+    </div>
+    <script type="module" src="js/particles.js"></script>
+    <script type="module" src="js/particleManager.js"></script>
+    <script type="module" src="js/questions.js"></script>
+    <script type="module" src="js/script.js"></script>
+</body>
+</html>
